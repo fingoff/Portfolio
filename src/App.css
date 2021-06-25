@@ -1,0 +1,22 @@
+.container {
+  margin: 0;
+  font-family: 'Monserrat', sans-serif;
+  text-align: center;
+  color: #fafafa;
+}
+
+.main {
+  padding: 0 !important;
+}
+
+section {
+  padding-bottom: 7em;
+}
+
+section h1 {
+  margin-bottom: 1em;
+}
+
+h4 {
+  color: black;
+}

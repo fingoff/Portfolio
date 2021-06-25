@@ -1,0 +1,32 @@
+.sidebar {
+  color: black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30%;
+  font-size: 20px;
+}
+
+.sidebar .nav-item {
+  background-size: 100% 0.2em;
+  transition: background-size 0.25s ease-in;
+}
+
+.sidebar .nav-item:hover {
+  background-image: linear-gradient(120deg, #84fab0 0%, #24b659 100%);
+  background-repeat: no-repeat;
+  background-position: 0 88%;
+  background-size: 100% 88%;
+}
+
+.sidebar .active {
+  background-image: linear-gradient(120deg, #84fab0 0%, #24b659 100%);
+  background-repeat: no-repeat;
+  /* background-size: 100% 0.2em; */
+  background-size: 100% 88%;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+
+/* .sidebar .active:hover {
+  background-size: 100% 88%;
+} */

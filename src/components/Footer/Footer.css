@@ -1,0 +1,17 @@
+.footer {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.footer .nav-items {
+  color: black;
+}
+
+.footer .nav-item {
+  color: black;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 0;
+}
