@@ -1,20 +1,18 @@
 .projects-summary {
-  margin-left: 7em;
-  margin-right: 7em;
+  margin: 0 7em;
   text-align: center;
+  padding-bottom: 5em;
 }
 
 @media (max-width: 576px) {
   .projects-summary {
-    margin-left: 4em;
-    margin-right: 4em;
+    margin: 0 4em;
   }
 }
 
 @media (max-width: 768px) {
   .projects-summary {
-    margin-left: 4em;
-    margin-right: 4em;
+    margin: 0 4em;
   }
 }
 
@@ -23,37 +21,49 @@
   margin-top: 3em;
 }
 
+.projects-summary a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
 .projects {
   display: flex;
   color: black;
+  margin: 0 auto;
 }
 
 .project {
   position: relative;
-  width: 50%;
-  padding: 0;
+  align-content: center;
+  padding: 2em;
 }
 
-.image {
+.project .image {
+  border-radius: 25px;
+  margin: 0;
   opacity: 1;
   display: block;
-  width: 100%;
-  height: auto;
+  height: 20em;
+  width: 20em;
   transition: .5s ease;
   backface-visibility: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .overlay {
+  margin: auto;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
+  height: 20em;
+  width: 20em;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #187e65;
+  border-radius: 25px;
 }
 
 .middle {
@@ -67,18 +77,30 @@
   text-align: center;
 }
 
-.project:hover .image {
+.hover-section:hover .image {
   opacity: 0.3;
 }
 
-.project:hover .overlay {
+.hover-section:hover .overlay {
   opacity: 0.5;
 }
 
-.project:hover .middle {
+.hover-section:hover .middle {
   opacity: 2;
 }
 
 .view-all-btn {
   margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+  .project .image{
+    height: 12em;
+    width: 12em;
+  }
+
+  .overlay {
+    height: 12em;
+    width: 12em;
+  }
 }

@@ -7,26 +7,27 @@
 }
 
 .sidebar .nav-item {
+  padding: 0 0.3em;
   background-size: 100% 0.2em;
-  transition: background-size 0.25s ease-in;
+  position: relative;
+  left: 0;
+  transition: background-size 0.25s ease-in, left 0.25s ease-in;
 }
 
 .sidebar .nav-item:hover {
-  background-image: linear-gradient(120deg, #84fab0 0%, #24b659 100%);
+  background-image: linear-gradient(120deg, red 0%, red 100%);
   background-repeat: no-repeat;
   background-position: 0 88%;
-  background-size: 100% 88%;
+  background-size: 100% 30%;
 }
 
 .sidebar .active {
-  background-image: linear-gradient(120deg, #84fab0 0%, #24b659 100%);
+  position: relative;
+  left: 10px;
+  /* background-image: linear-gradient(120deg, #84fab0 0%, #24b659 100%); */
+  background-image: linear-gradient(120deg, red 0%, red 100%);
   background-repeat: no-repeat;
-  /* background-size: 100% 0.2em; */
-  background-size: 100% 88%;
   background-position: 0 88%;
-  transition: background-size 0.25s ease-in;
+  background-size: 100% 30%;
+  transition: background-size 0.25s ease-in, left 0.25s ease-in;
 }
-
-/* .sidebar .active:hover {
-  background-size: 100% 88%;
-} */

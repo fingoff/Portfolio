@@ -1,14 +1,33 @@
 .footer {
-  background-color: lightgray;
+  padding: 2em 2em 1em 2em;
+  background-color: #141516;
   text-align: center;
+  color: white;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer h4 {
+  color: white;
 }
 
 .footer .nav-items {
-  color: black;
+  display: block;
+  color: white;
 }
 
 .footer .nav-item {
-  color: black;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .copyright {

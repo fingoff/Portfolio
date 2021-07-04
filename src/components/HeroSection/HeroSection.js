@@ -1,18 +1,31 @@
 import "./HeroSection.css";
 import React from "react";
-import Header from '../Header/Header'
+import Header from "../Header/Header";
 import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { Link, animateScroll as scroll } from "react-scroll";
+import Typist from "react-typist";
 
-const Hero = ({}) => {
+
+const HeroSection = ({}) => {
   return (
     <div className="hero-img">
       <Header />
       <div className="hero-text">
-        <h1>Hi, I'm Finlay Goff</h1>
-        <p>Welcome to my Portfolio Web Page, built with React etc etc</p>
+        <Typist cursor={{ show: false }}>
+          <h1>Hi, I'm Finlay Goff</h1>
+          <Typist.Delay ms={500} />
+          <br />
+          <p>Welcome to my Portfolio Web Page, built with </p>
+          <p>React</p>
+          <Typist.Backspace count={5} delay={300} />
+          <Typist.Delay ms={500} />
+          <p>CSS</p>
+          <Typist.Backspace count={3} delay={300} />
+          <Typist.Delay ms={500} />
+          <p>Love &#10084;</p>
+        </Typist>
         <Button variant="primary" size="lg">
           Let's Talk
         </Button>{" "}
@@ -34,4 +47,4 @@ const Hero = ({}) => {
   );
 };
 
-export default Hero;
+export default HeroSection;

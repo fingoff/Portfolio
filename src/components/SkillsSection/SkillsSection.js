@@ -15,7 +15,7 @@ const renderTooltip = (props) => (
 
 const SkillsSection = ({}) => {
   return (
-    <section id="skills">
+    <section className="skills" id="skills">
       <h1>Skills</h1>
       <Carousel role="listbox">
         <Carousel.Item active>
