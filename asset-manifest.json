@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.25978013.chunk.css",
+    "main.js": "/Portfolio/static/js/main.61da800b.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.61da800b.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
+    "static/js/2.2e4b1d2d.chunk.js": "/Portfolio/static/js/2.2e4b1d2d.chunk.js",
+    "static/js/2.2e4b1d2d.chunk.js.map": "/Portfolio/static/js/2.2e4b1d2d.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.25978013.chunk.css.map": "/Portfolio/static/css/main.25978013.chunk.css.map",
+    "static/js/2.2e4b1d2d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.2e4b1d2d.chunk.js.LICENSE.txt",
+    "static/media/FGlogo.6b4e3766.png": "/Portfolio/static/media/FGlogo.6b4e3766.png",
+    "static/media/ImperialLogo.6e30a33a.png": "/Portfolio/static/media/ImperialLogo.6e30a33a.png",
+    "static/media/IoTproduct1.705a3145.png": "/Portfolio/static/media/IoTproduct1.705a3145.png",
+    "static/media/IoTproduct2.e719a122.png": "/Portfolio/static/media/IoTproduct2.e719a122.png",
+    "static/media/HeroSection.css": "/Portfolio/static/media/heropic.18cd6d31.jpeg",
+    "static/media/synth1.2d4a57f3.png": "/Portfolio/static/media/synth1.2d4a57f3.png",
+    "static/media/synth2.c13d8c75.png": "/Portfolio/static/media/synth2.c13d8c75.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb6781d5.js",
+    "static/js/2.2e4b1d2d.chunk.js",
+    "static/css/main.25978013.chunk.css",
+    "static/js/main.61da800b.chunk.js"
+  ]
+}
