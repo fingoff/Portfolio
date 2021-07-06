@@ -16,6 +16,7 @@ import issiegif2 from "../../images/issie2.gif";
 import issiegif3 from "../../images/issie3.gif";
 import issiegif4 from "../../images/issie4.gif";
 import covid1 from "../../images/covid1.jpeg";
+import covid2 from "../../images/covid2.jpg";
 
 export class ProjectsPage extends React.Component {
   constructor(props) {
@@ -420,39 +421,52 @@ export class ProjectsPage extends React.Component {
                         descriptions, 2 organisational documents and a Pitch to
                         a non-technical audience.
                         <br />
-                        My main contributions were: the development of the use
-                        cases, formulation of the component model of the system
-                        and the planning and creation of the pitch presentation.
+                        <br />
+                        We had to work remotely to complete this project and so
+                        it required a lot of communication and planning in order
+                        to make it a success. During the early parts of the
+                        project, we spent time on video calls, planning how we
+                        wanted our architecture to be before then splitting into
+                        smaller teams to complete the deliverables.
+                        <br />
+                        <br />
+                        My main contributions in this later phase were:
+                        <ul>
+                          <li>
+                            The development of the use cases, one for when a
+                            user would change their self reported Covid-19
+                            status as positive, and another for when a user has
+                            a Covid-19 test carried about by a medical
+                            professional.
+                          </li>
+                          <li>
+                            Formulation of the component model of the system,
+                            used to show the hierarchy of our functional components as well as their responsibilities.
+                          </li>
+                          <li>
+                            Planning and creation of the pitch presentation
+                            which was used to explain our architecture in a
+                            theoretical Request for Proposal to the client.
+                          </li>
+                        </ul>
                       </p>
                     </Fade>
                   </Col>
                 </Row>
               </Container>
-              {/* <Container>
+              <Container>
                 <Row>
-                  <Col md="4">
-                    <div className="img-below-bg">
+                  <Col md="12">
+                    <div className="img-below-bg-long">
                       {" "}
-                      <img src={workmate2} className="img-below"></img>
-                    </div>
-                  </Col>
-                  <Col md="4">
-                    <div className="img-below-bg">
-                      {" "}
-                      <img src={workmate3} className="img-below"></img>
-                    </div>
-                  </Col>
-                  <Col md="4">
-                    <div className="img-below-bg">
-                      {" "}
-                      <img src={workmate3} className="img-below"></img>
+                      <img src={covid2} className="img-below-long"></img>
                     </div>
                   </Col>
                 </Row>
-              </Container> */}
+              </Container>
             </div>
           </Fade>
-          <Fade in={this.state.p5Visible} duration={500}>
+          {/* <Fade in={this.state.p5Visible} duration={500}>
             <div
               className="p5"
               style={{
@@ -538,7 +552,7 @@ export class ProjectsPage extends React.Component {
                   </Col>
                 </Row>
               </Container>
-              {/* <Container>
+              <Container>
                 <Row>
                   <Col md="4">
                     <div className="img-below-bg">
@@ -559,9 +573,9 @@ export class ProjectsPage extends React.Component {
                     </div>
                   </Col>
                 </Row>
-              </Container> */}
+              </Container>
             </div>
-          </Fade>
+          </Fade> */}
         </div>
       </>
     );

@@ -113,6 +113,10 @@
   margin: 1em 0 .5em 0;
 }
 
+.content-area .description .ul {
+  direction: rtl;
+}
+
 .img-area {
   position: relative;
   min-height: 550px;
@@ -145,6 +149,27 @@
   margin-top: 1em;
   height: 20em;
   width: 20em;
+  border-radius: 25px;
+  -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px)
+    drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px);
+  filter: drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px)
+    drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px);
+}
+
+.img-below-bg-long {
+  height: 27em;
+  width: 42em;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  padding: 0;
+  background-color: #fbebcd;
+  border-radius: 25px;
+}
+
+.img-below-long {
+  margin-top: 1em;
+  height: 25em;
+  width: 40em;
   border-radius: 25px;
   -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px)
     drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px);
