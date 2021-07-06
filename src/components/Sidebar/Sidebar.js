@@ -13,7 +13,7 @@ const Sidebar = ({}) => {
           to="education"
           spy={true}
           smooth={true}
-          offset={-20}
+          offset={-100}
           duration={500}
         >
           Education
@@ -26,13 +26,13 @@ const Sidebar = ({}) => {
           to="experience"
           spy={true}
           smooth={true}
-          offset={-20}
+          offset={-100}
           duration={500}
         >
           Experience
         </Link>
       </Row>
-      <Row>
+      {/* <Row>
         <Link
           className="nav-item"
           activeClass="active"
@@ -44,7 +44,7 @@ const Sidebar = ({}) => {
         >
           Skills
         </Link>
-      </Row>
+      </Row> */}
       <Row>
         <Link
           className="nav-item"
@@ -52,7 +52,7 @@ const Sidebar = ({}) => {
           to="achievements"
           spy={true}
           smooth={true}
-          offset={-20}
+          offset={-100}
           duration={500}
         >
           Achievements

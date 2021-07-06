@@ -26,15 +26,15 @@ const HeroSection = ({}) => {
           <Typist.Delay ms={500} />
           <p>Love &#10084;</p>
         </Typist>
-        <Button variant="primary" size="lg">
+        {/* <Button variant="primary" size="lg">
           Let's Talk
-        </Button>{" "}
+        </Button>{" "} */}
         <Link
           activeClass="active"
           to="projects-summary"
           spy={true}
           smooth={true}
-          offset={-10}
+          offset={-150}
           duration={500}
         >
           <Button variant="secondary" size="lg">

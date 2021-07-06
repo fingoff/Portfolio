@@ -9,7 +9,7 @@
   padding: 0 !important;
 }
 
-.second-section {
+.main-list {
   padding-top: 10em;
   background: #f3f2f2;
 }
@@ -19,7 +19,7 @@
   max-width: 75%;
 }
 
-section {
+.main-list section {
   margin-bottom: 7em;
 }
 

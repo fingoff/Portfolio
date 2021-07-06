@@ -21,7 +21,7 @@ const Home = ({}) => {
     <>
       <HeroSection />
       <ProjectsSection />
-      <Container fluid className="second-section">
+      <Container fluid className="main-list">
         <Row>
           <Col className="sidebar-section" md="2">
             <Sidebar />
@@ -29,7 +29,7 @@ const Home = ({}) => {
           <Col className="middle-section" md="10">
             <EducationSection />
             <ExperienceSection />
-            <SkillsSection />
+            {/* <SkillsSection /> */}
             <AchievementsSection />
           </Col>
         </Row>

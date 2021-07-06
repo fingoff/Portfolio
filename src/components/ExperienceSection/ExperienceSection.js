@@ -12,10 +12,24 @@ const ExperienceSection = ({}) => {
           <h4 className="role">Junior Software Developer</h4>
           <h5 className="company">Solidatus</h5>
           <p className="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat
-            volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor
-            felis, eu ultrices elit molestie.
+            <ul>
+              <li>
+                Full stack development with C# for the back-end and React and
+                SCSS for the front-end. Completing a variety of programming
+                tasks for the Solidatus data lineage tool, such as
+                implementation of new buttons and redesigning the User
+                Interface.
+              </li>
+              <li>
+                Creation of tests for the back-end and more notably the
+                front-end using Cypress.
+              </li>
+              <li>
+                Adhering to the Agile Scrum work process, attending daily
+                "stand-up" meetings as well as bi-weekly Sprint planning
+                sessions.
+              </li>
+            </ul>
           </p>
         </div>
       </Fade>

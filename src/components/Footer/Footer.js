@@ -2,7 +2,7 @@ import "./Footer.css";
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-scroll";
 
 const Footer = ({}) => {
@@ -11,19 +11,25 @@ const Footer = ({}) => {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col sm="12" md="4">
+        <Col sm="12" md="6">
           <h4>Connect With Me</h4>
           <a
             href="https://www.linkedin.com/in/finlay-goff-602779132/"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faLinkedin} className="ml-2" />
+            <FontAwesomeIcon icon={faLinkedin} className="icon ml-2" />
+          </a>
+          <a
+            href="https://github.com/fingoff"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faGithub} className="icon ml-2" />
           </a>
         </Col>
-        <Col sm="12" md="4">
+        {/* <Col sm="12" md="4">
           <h4>About Me</h4>
-        </Col>
-        <Col sm="12" md="4">
+        </Col> */}
+        <Col sm="12" md="6">
           <h4>Navigate</h4>
           <Container>
             <Row>
@@ -36,7 +42,7 @@ const Footer = ({}) => {
                       to="projects-summary"
                       spy={true}
                       smooth={true}
-                      offset={-20}
+                      offset={-100}
                       duration={500}
                     >
                       Projects Summary
@@ -49,7 +55,7 @@ const Footer = ({}) => {
                       to="education"
                       spy={true}
                       smooth={true}
-                      offset={-20}
+                      offset={-100}
                       duration={500}
                     >
                       Education
@@ -62,13 +68,13 @@ const Footer = ({}) => {
                       to="experience"
                       spy={true}
                       smooth={true}
-                      offset={-20}
+                      offset={-100}
                       duration={500}
                     >
                       Experience
                     </Link>
                   </Row>
-                  <Row>
+                  {/* <Row>
                     <Link
                       className="nav-item"
                       activeClass="active"
@@ -80,7 +86,7 @@ const Footer = ({}) => {
                     >
                       Skills
                     </Link>
-                  </Row>
+                  </Row> */}
                   <Row>
                     <Link
                       className="nav-item"
@@ -88,7 +94,7 @@ const Footer = ({}) => {
                       to="achievements"
                       spy={true}
                       smooth={true}
-                      offset={-20}
+                      offset={-100}
                       duration={500}
                     >
                       Achievements

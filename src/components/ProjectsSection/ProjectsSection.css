@@ -1,7 +1,7 @@
 .projects-summary {
-  margin: 0 7em;
+  padding: 10em 7em 9em 7em;
   text-align: center;
-  padding-bottom: 5em;
+  background-color: #0a4b78;
 }
 
 @media (max-width: 576px) {
@@ -18,12 +18,12 @@
 
 .projects-summary h1 {
   text-align: left;
-  margin-top: 3em;
+  color: white;
 }
 
-.projects-summary a {
+.projects-summary .selection {
   display: inline-block;
-  color: black;
+  color: #042f4d;
   text-decoration: none;
 }
 
@@ -31,6 +31,7 @@
   display: flex;
   color: black;
   margin: 0 auto;
+  align-content: center;
 }
 
 .project {
@@ -62,7 +63,7 @@
   width: 20em;
   opacity: 0;
   transition: .5s ease;
-  background-color: #187e65;
+  background-color: #fbebcd;
   border-radius: 25px;
 }
 
@@ -82,7 +83,7 @@
 }
 
 .hover-section:hover .overlay {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .hover-section:hover .middle {
@@ -90,7 +91,8 @@
 }
 
 .view-all-btn {
-  margin-top: 20px;
+  margin-top: 100px;
+  color: white;
 }
 
 @media (max-width: 576px) {
