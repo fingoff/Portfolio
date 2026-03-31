@@ -35,7 +35,7 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${jetbrainsMono.variable} scroll-smooth`}
     >
-      <body className="bg-bg text-text font-sans antialiased">
+      <body className="bg-bg text-text font-sans antialiased leading-relaxed">
         {children}
       </body>
     </html>

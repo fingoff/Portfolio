@@ -8,11 +8,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: '#0C0C0C',
-        surface: '#141414',
-        border: '#222222',
-        muted: '#6B7280',
-        text: '#F0EDE8',
+        bg: '#0a192f',
+        surface: '#112240',
+        'surface-light': '#1d3461',
+        border: '#233554',
+        muted: '#8892b0',
+        text: '#ccd6f6',
+        heading: '#e6f1ff',
         accent: '#F59E0B',
       },
       fontFamily: {

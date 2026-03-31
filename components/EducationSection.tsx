@@ -6,34 +6,33 @@ import SectionLabel from '@/components/SectionLabel'
 
 export default function EducationSection() {
   return (
-    <section id="education" className="py-16 px-6 sm:px-8">
-      <div className="max-w-6xl mx-auto">
-        <SectionLabel>Education</SectionLabel>
-        <div className="mt-8">
-          {education.map((entry, i) => (
-            <motion.div
-              key={entry.institution}
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-80px' }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="grid grid-cols-1 lg:grid-cols-[260px_1fr] gap-8 lg:gap-20 py-12 border-b border-border last:border-0"
-            >
+    <section id="education" className="mb-16">
+      <SectionLabel index="04">Education</SectionLabel>
+      <div className="mt-6">
+        {education.map((entry, i) => (
+          <motion.div
+            key={entry.institution}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-60px' }}
+            transition={{ duration: 0.4, delay: i * 0.1 }}
+          >
+            <div className="group relative grid grid-cols-1 sm:grid-cols-[140px_1fr] gap-1 sm:gap-6 py-6 px-5 -mx-5 rounded-md hover:bg-surface/50 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg transition-all duration-300 cursor-default">
+              <div className="font-mono text-xs text-muted mt-1 uppercase tracking-wide">
+                {entry.period}
+              </div>
               <div>
-                <p className="font-mono text-xs text-muted mb-3 tracking-widest uppercase">
-                  {entry.period}
-                </p>
-                <h3 className="text-lg font-semibold text-text mb-1">
+                <h3 className="text-base font-medium text-heading group-hover:text-accent transition-colors duration-300 leading-snug">
                   {entry.institution}
                 </h3>
-                <p className="text-sm text-muted">{entry.degree}</p>
+                <p className="text-sm text-accent/80 mt-1">{entry.degree}</p>
+                <p className="mt-2 text-sm text-muted leading-relaxed">
+                  {entry.detail}
+                </p>
               </div>
-              <p className="text-sm text-muted leading-relaxed lg:pt-1">
-                {entry.detail}
-              </p>
-            </motion.div>
-          ))}
-        </div>
+            </div>
+          </motion.div>
+        ))}
       </div>
     </section>
   )
