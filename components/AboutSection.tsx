@@ -13,6 +13,18 @@ export default function AboutSection() {
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.5 }}
       >
+        <div className="flex flex-wrap gap-2 mb-6">
+          {[
+            '📍 London, UK',
+            '🏏 Two Circles',
+            '💻 C# / .NET & TypeScript',
+            '🎓 MEng First Class, Imperial',
+          ].map(item => (
+            <span key={item} className="font-mono text-xs text-muted border border-border px-2.5 py-1 rounded-full">
+              {item}
+            </span>
+          ))}
+        </div>
         <div className="space-y-4 text-muted leading-relaxed text-sm">
           <p>
             I&apos;m a Full-Stack Engineer based in London, currently building digital platforms at{' '}

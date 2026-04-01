@@ -18,7 +18,7 @@ const navLinks = [
 
 export default function Home() {
   const [loaded, setLoaded] = useState(false)
-  const [activeSection, setActiveSection] = useState('')
+  const [activeSection, setActiveSection] = useState('about')
   const [mouse, setMouse] = useState({ x: 0, y: 0 })
   const mainRef = useRef<HTMLDivElement>(null)
 
@@ -33,7 +33,7 @@ export default function Home() {
           setActiveSection(visible[0].target.id)
         }
       },
-      { rootMargin: '-40% 0px -40% 0px', threshold: 0 }
+      { rootMargin: '-10% 0px -50% 0px', threshold: 0 }
     )
     sections.forEach(s => observer.observe(s))
     return () => observer.disconnect()
@@ -164,14 +164,6 @@ export default function Home() {
             transition={{ delay: 0.7, duration: 0.5 }}
             className="mt-12 lg:mt-0"
           >
-            {/* Currently block */}
-            <div className="mb-5 space-y-1.5 font-mono text-xs text-muted">
-              <p>📍 London, UK</p>
-              <p>💻 Specialised in C#/.NET &amp; TypeScript</p>
-              <p>🏏 Currently: Two Circles</p>
-              <p>🎓 MEng First Class, Imperial College London</p>
-            </div>
-
             {/* Social links */}
             <div className="flex items-center gap-5">
               <a
@@ -211,7 +203,7 @@ export default function Home() {
         </header>
 
         {/* ── Right column — scrollable content ── */}
-        <main ref={mainRef} className="lg:py-16 pb-20 lg:w-full lg:max-w-[600px]">
+        <main ref={mainRef} className="lg:pt-24 lg:pb-16 pb-20 lg:w-full lg:max-w-[600px]">
           <AboutSection />
           <ExperienceSection />
           <ProjectsSection />
