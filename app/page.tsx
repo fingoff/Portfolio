@@ -212,7 +212,7 @@ export default function Home() {
           {/* Minimal footer */}
           <footer className="mt-16 pt-8 border-t border-border">
             <p className="font-mono text-xs text-muted">
-              Built with Next.js, TypeScript &amp; Tailwind CSS. Finlay Goff · 2026
+              Finlay Goff · {new Date().getFullYear()}
             </p>
           </footer>
         </main>
