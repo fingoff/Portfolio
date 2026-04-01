@@ -14,11 +14,11 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Finlay Goff - Software Engineer',
+  title: 'Finlay Goff',
   description:
     'Software Engineer based in London, specialising in full-stack development with TypeScript, C#, and React.',
   openGraph: {
-    title: 'Finlay Goff - Software Engineer',
+    title: 'Finlay Goff',
     description:
       'Software Engineer based in London, specialising in full-stack development with TypeScript, C#, and React.',
     type: 'website',
