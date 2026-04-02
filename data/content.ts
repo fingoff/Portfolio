@@ -4,19 +4,19 @@ export const experience = [
     role: 'Full-Stack Developer',
     period: 'Nov 2024 - Present',
     location: 'London, UK',
-    summary: 'Backend lead on Cricket Live - built 3 core services, owned Contentful integration end-to-end, and shipped the team\'s shared frontend component library.',
+    summary: 'Core backend developer on a major sports ticketing platform - built 3 core services, owned Contentful integration end-to-end, and shipped the team\'s shared frontend component library.',
     tech: ['C#', '.NET', 'TypeScript', 'GitHub Actions', 'Contentful', 'Azure'],
     highlights: [
-      'Led backend development on the Cricket Live project as the most senior individual contributor for the first 4 months - independently built 2 of 3 core services and mentored another engineer through the 3rd.',
+      'Primary backend developer for much of the creation of a major sports ticketing platform - independently built core services end-to-end and mentored colleagues through backend development.',
       'Designed and fully owned the fixture synchronisation service end-to-end, from architecture to implementation. The service automatically populates Contentful with structured content entries, saving editors hours of manual work per fixture cycle.',
       'Became the team\'s Contentful subject matter expert: designed the content model, upskilled engineers and editors across the team, and produced documentation for the wider digital engineering organisation.',
-      'Created the first iteration of Springboard - the Digital Engineering team\'s shared frontend component library - applying current best practices and establishing a scalable foundation for cross-project component reuse.',
+      'Created the first iteration of the Digital Engineering team\'s shared frontend component library - applying current best practices and establishing a scalable foundation for cross-project component reuse.',
       'Built GitHub Actions pipelines enabling automated testing, content migrations, and consistent deployment workflows across environments.',
     ],
     // Drop your screenshots into /public/images/ and update these paths
     screenshots: [
-      { src: '/images/mclaren-cricket-web.jpg', caption: 'McLaren Cricket - website' },
-      { src: '/images/mclaren-cricket-app.jpg', caption: 'McLaren Cricket - mobile app' },
+      { src: '/images/web.jpg', caption: 'website' },
+      { src: '/images/app.jpg', caption: 'mobile app' },
     ],
   },
   {
